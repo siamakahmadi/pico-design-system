@@ -1,0 +1,13 @@
+// _typography.scss
+
+@import '_fonts_base.scss'; // Import the font base file to access the variables
+
+// Mixin for typography that accepts size, line-height, and font-weight as keys
+@mixin typography($size, $line-height, $font-weight) {
+  font-size: map-get($typography-sizes, $size); // Get font size from map
+  line-height: map-get($line-heights, $line-height); // Get line-height from map
+  font-weight: map-get($font-weights, $font-weight); // Get font weight from map
+}
+
+
+

@@ -1,0 +1,34 @@
+// _fonts_base.scss
+
+// Font Sizes (XS, SM, Base, LG, XL, 2XL, 3XL)
+$typography-sizes: (
+  XS: 12px,
+  SM: 14px,
+  Base: 16px,
+  LG: 18px,
+  XL: 20px,
+  '2XL': 24px,
+  '3XL': 30px
+);
+
+// Line Heights for typography (XS, SM, Base, LG, XL, 2XL, 3XL)
+$line-heights: (
+  XS: 18px,
+  SM: 20px,
+  Base: 24px,
+  LG: 28px,
+  XL: 30px,
+  '2XL': 32px,
+  '3XL': 36px
+);
+
+// Font Weights (ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold)
+$font-weights: (
+  ExtraLight: 200,
+  Light: 300,
+  Regular: 400,
+  Medium: 500,
+  SemiBold: 600,
+  Bold: 700,
+  ExtraBold: 800
+);

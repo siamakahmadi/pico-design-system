@@ -1,0 +1,66 @@
+// typography.scss
+@import './typographymixin';
+@import '_fonts_base.scss'; // Import the font base file to access the variables
+
+// XS Sizes
+.xs-extra-light { @include typography('XS', 'XS', 'ExtraLight'); }
+.xs-light { @include typography('XS', 'XS', 'Light'); }
+.xs-regular { @include typography('XS', 'XS', 'Regular'); }
+.xs-medium { @include typography('XS', 'XS', 'Medium'); }
+.xs-semi-bold { @include typography('XS', 'XS', 'SemiBold'); }
+.xs-bold { @include typography('XS', 'XS', 'Bold'); }
+.xs-extra-bold { @include typography('XS', 'XS', 'ExtraBold'); }
+
+// SM Sizes
+.sm-extra-light { @include typography('SM', 'SM', 'ExtraLight'); }
+.sm-light { @include typography('SM', 'SM', 'Light'); }
+.sm-regular { @include typography('SM', 'SM', 'Regular'); }
+.sm-medium { @include typography('SM', 'SM', 'Medium'); }
+.sm-semi-bold { @include typography('SM', 'SM', 'SemiBold'); }
+.sm-bold { @include typography('SM', 'SM', 'Bold'); }
+.sm-extra-bold { @include typography('SM', 'SM', 'ExtraBold'); }
+
+// Base Sizes
+.base-extra-light { @include typography('Base', 'Base', 'ExtraLight'); }
+.base-light { @include typography('Base', 'Base', 'Light'); }
+.base-regular { @include typography('Base', 'Base', 'Regular'); }
+.base-medium { @include typography('Base', 'Base', 'Medium'); }
+.base-semi-bold { @include typography('Base', 'Base', 'SemiBold'); }
+.base-bold { @include typography('Base', 'Base', 'Bold'); }
+.base-extra-bold { @include typography('Base', 'Base', 'ExtraBold'); }
+
+// LG Sizes
+.lg-extra-light { @include typography('LG', 'LG', 'ExtraLight'); }
+.lg-light { @include typography('LG', 'LG', 'Light'); }
+.lg-regular { @include typography('LG', 'LG', 'Regular'); }
+.lg-medium { @include typography('LG', 'LG', 'Medium'); }
+.lg-semi-bold { @include typography('LG', 'LG', 'SemiBold'); }
+.lg-bold { @include typography('LG', 'LG', 'Bold'); }
+.lg-extra-bold { @include typography('LG', 'LG', 'ExtraBold'); }
+
+// XL Sizes
+.xl-extra-light { @include typography('XL', 'XL', 'ExtraLight'); }
+.xl-light { @include typography('XL', 'XL', 'Light'); }
+.xl-regular { @include typography('XL', 'XL', 'Regular'); }
+.xl-medium { @include typography('XL', 'XL', 'Medium'); }
+.xl-semi-bold { @include typography('XL', 'XL', 'SemiBold'); }
+.xl-bold { @include typography('XL', 'XL', 'Bold'); }
+.xl-extra-bold { @include typography('XL', 'XL', 'ExtraBold'); }
+
+// 2XL Sizes
+.xl2-extra-light { @include typography('2XL', '2XL', 'ExtraLight'); }
+.xl2-light { @include typography('2XL', '2XL', 'Light'); }
+.xl2-regular { @include typography('2XL', '2XL', 'Regular'); }
+.xl2-medium { @include typography('2XL', '2XL', 'Medium'); }
+.xl2-semi-bold { @include typography('2XL', '2XL', 'SemiBold'); }
+.xl2-bold { @include typography('2XL', '2XL', 'Bold'); }
+.xl2-extra-bold { @include typography('2XL', '2XL', 'ExtraBold'); }
+
+// 3XL Sizes
+.xl3-extra-light { @include typography('3XL', '3XL', 'ExtraLight'); }
+.xl3-light { @include typography('3XL', '3XL', 'Light'); }
+.xl3-regular { @include typography('3XL', '3XL', 'Regular'); }
+.xl3-medium { @include typography('3XL', '3XL', 'Medium'); }
+.xl3-semi-bold { @include typography('3XL', '3XL', 'SemiBold'); }
+.xl3-bold { @include typography('3XL', '3XL', 'Bold'); }
+.xl3-extra-bold { @include typography('3XL', '3XL', 'ExtraBold'); }

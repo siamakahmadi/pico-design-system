@@ -1,0 +1,119 @@
+// tokens/_colors.scss
+
+// Gray Scale
+$gray-50: #f6f6f6;
+$gray-100: #e7e7e7;
+$gray-200: #d1d1d1;
+$gray-300: #b0b0b0;
+$gray-400: #888888;
+$gray-500: #707070;
+$gray-600: #5d5d5d;
+$gray-700: #4f4f4f;
+$gray-800: #454545;
+$gray-900: #3d3d3d;
+$gray-950: #262626;
+
+// Blue Scale
+$blue-50: #eef6ff;
+$blue-100: #d9eaff;
+$blue-200: #bcdbff;
+$blue-300: #8ec5ff;
+$blue-400: #59a4ff;
+$blue-500: #3884ff;
+$blue-600: #1b5ff5;
+$blue-700: #144ae1;
+$blue-800: #173cb6;
+$blue-900: #19378f;
+$blue-950: #19378f;
+
+// Red Scale
+$red-50: #fff0f2;
+$red-100: #ffe2e6;
+$red-200: #ffcad3;
+$red-300: #ff9faf;
+$red-400: #ff6986;
+$red-500: #ff335f;
+$red-600: #ed114b;
+$red-700: #c80840;
+$red-800: #a8093c;
+$red-900: #8f0c3a;
+$red-950: #50011b;
+
+// Amber Scale
+$amber-50: #fffdea;
+$amber-100: #fff7c5;
+$amber-200: #fff085;
+$amber-300: #ffe146;
+$amber-400: #ffcf1b;
+$amber-500: #f5a700;
+$amber-600: #e28400;
+$amber-700: #bb5c02;
+$amber-800: #984708;
+$amber-900: #7c3a0b;
+$amber-950: #481d00;
+
+// Green Scale
+$green-50: #f1fcf3;
+$green-100: #defae5;
+$green-200: #bff3cb;
+$green-300: #8de8a3;
+$green-400: #53d573;
+$green-500: #28a948;
+$green-600: #1f9a3d;
+$green-700: #1c7934;
+$green-800: #1b602d;
+$green-900: #184f27;
+$green-950: #082b12;
+
+// Teal Scale
+$teal-50: #eefffb;
+$teal-100: #c6fff4;
+$teal-200: #8effea;
+$teal-300: #4dfbdf;
+$teal-400: #19e8cd;
+$teal-500: #00c7b0;
+$teal-600: #00a495;
+$teal-700: #028378;
+$teal-800: #086760;
+$teal-900: #0c5550;
+$teal-950: #003433;
+
+// Purple Scale
+$purple-50: #fbf5ff;
+$purple-100: #f6e7ff;
+$purple-200: #efd3ff;
+$purple-300: #e3b0ff;
+$purple-400: #d17eff;
+$purple-500: #c252ff;
+$purple-600: #ae2af3;
+$purple-700: #981ad6;
+$purple-800: #801aaf;
+$purple-900: #69178c;
+$purple-950: #4a0269;
+
+// Pink Scale
+$pink-50: #fef1f7;
+$pink-100: #fde6f2;
+$pink-200: #fdcde6;
+$pink-300: #fda4d0;
+$pink-400: #fa6cb0;
+$pink-500: #f44393;
+$pink-600: #e41e6e;
+$pink-700: #c61054;
+$pink-800: #a31146;
+$pink-900: #88133d;
+$pink-950: #530420;
+
+// Essential Colors
+$black: #000000;
+$white: #ffffff;
+
+// Text Colors
+$text-primary: $gray-950;
+$text-secondary: $gray-400;
+$text-disabled: $gray-100;
+
+// Stroke Colors
+$stroke-default: $gray-100;
+$stroke-active: $blue-600;
+$stroke-disabled: $gray-50;
