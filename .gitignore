@@ -1,0 +1,8 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .next directory (for Next.js projects)
+.next/
+
+# Ignore .history directory (if you use a tool like VSCode's history feature)
+.history/
